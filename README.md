@@ -22,7 +22,7 @@ and read it for more details
 ##### 1. Add MyFatoorah plugin to your pubspec.yaml file.
 
     dependencies:
-        myfatoorah_flutter: ^2.1.13    
+        myfatoorah_flutter: ^2.1.12    
 	  
 ##### 2. Install the plugin by running the following command.
 

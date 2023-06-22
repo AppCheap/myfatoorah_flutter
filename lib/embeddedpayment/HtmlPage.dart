@@ -4,7 +4,7 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:myfatoorah_flutter/model/MFError.dart';
 import 'package:myfatoorah_flutter/utils/ErrorsEnum.dart';
-import 'package:webview_flutter/webview_flutter.dart';
+import 'package:webview_flutter/src/webview_flutter_legacy.dart';
 
 import '../myfatoorah_flutter.dart';
 import 'MFPaymentCardView.dart';
@@ -97,9 +97,8 @@ class HtmlPage extends State<MFPaymentCardView> {
   }
 
   String convertHTMLToURL(String html) {
-    return new Uri.dataFromString(
-        html,
-        mimeType: 'text/html',
-        encoding: Encoding.getByName('utf-8')).toString();
+    return new Uri.dataFromString(html,
+            mimeType: 'text/html', encoding: Encoding.getByName('utf-8'))
+        .toString();
   }
 }

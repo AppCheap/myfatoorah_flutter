@@ -485,42 +485,42 @@ class _MyHomePageState extends State<MyHomePage> {
                     padding: EdgeInsets.all(5.0),
                   ),
                   if (Platform.isIOS) createApplePayView(),
-                  RaisedButton(
-                    child: Text('Pay (Embedded Payment)'),
-                    onPressed: payWithEmbeddedPayment,
-                  ),
-                  RaisedButton(
-                    child: Text('Send Payment'),
-                    onPressed: sendPayment,
-                  ),
-                  RaisedButton(
-                    child: Text('Initiate Payment'),
-                    onPressed: initiatePayment,
-                  ),
-                  RaisedButton(
-                    child: Text('Execute Regular Payment'),
-                    onPressed: executeRegularPayment,
-                  ),
-                  RaisedButton(
-                    child: Text('Execute Direct Payment'),
-                    onPressed: executeDirectPayment,
-                  ),
-                  RaisedButton(
-                    child: Text('Execute Direct Payment with Recurring'),
-                    onPressed: executeDirectPaymentWithRecurring,
-                  ),
-                  RaisedButton(
-                    child: Text('Cancel Recurring Payment'),
-                    onPressed: cancelRecurringPayment,
-                  ),
-                  RaisedButton(
-                    child: Text('Cancel Token'),
-                    onPressed: cancelToken,
-                  ),
-                  RaisedButton(
-                    child: Text('Get Payment Status'),
-                    onPressed: getPaymentStatus,
-                  ),
+                  // RaisedButton(
+                  //   child: Text('Pay (Embedded Payment)'),
+                  //   onPressed: payWithEmbeddedPayment,
+                  // ),
+                  // RaisedButton(
+                  //   child: Text('Send Payment'),
+                  //   onPressed: sendPayment,
+                  // ),
+                  // RaisedButton(
+                  //   child: Text('Initiate Payment'),
+                  //   onPressed: initiatePayment,
+                  // ),
+                  // RaisedButton(
+                  //   child: Text('Execute Regular Payment'),
+                  //   onPressed: executeRegularPayment,
+                  // ),
+                  // RaisedButton(
+                  //   child: Text('Execute Direct Payment'),
+                  //   onPressed: executeDirectPayment,
+                  // ),
+                  // RaisedButton(
+                  //   child: Text('Execute Direct Payment with Recurring'),
+                  //   onPressed: executeDirectPaymentWithRecurring,
+                  // ),
+                  // RaisedButton(
+                  //   child: Text('Cancel Recurring Payment'),
+                  //   onPressed: cancelRecurringPayment,
+                  // ),
+                  // RaisedButton(
+                  //   child: Text('Cancel Token'),
+                  //   onPressed: cancelToken,
+                  // ),
+                  // RaisedButton(
+                  //   child: Text('Get Payment Status'),
+                  //   onPressed: getPaymentStatus,
+                  // ),
                   Padding(
                     padding: const EdgeInsets.all(5.0),
                     child: Text(_response),
@@ -536,24 +536,23 @@ class _MyHomePageState extends State<MyHomePage> {
 
   createPaymentCardView() {
     mfPaymentCardView = MFPaymentCardView(
-        // language: MFAPILanguage.EN,
-        // inputColor: Colors.red,
-        // labelColor: Colors.yellow,
-        // errorColor: Colors.blue,
-        // borderColor: Colors.green,
-        // fontSize: 14,
-        // borderWidth: 1,
-        // borderRadius: 10,
-        // cardHeight: 220,
-        // cardHolderNameHint: "card holder name hint",
-        // cardNumberHint: "card number hint",
-        // expiryDateHint: "expiry date hint",
-        // cvvHint: "cvv hint",
-        // showLabels: true,
-        // cardHolderNameLabel: "card holder name label",
-        // cardNumberLabel: "card number label",
-        // expiryDateLabel: "expiry date label",
-        // cvvLabel: "cvv label",
+//      inputColor: Colors.red,
+//      labelColor: Colors.yellow,
+//      errorColor: Colors.blue,
+//      borderColor: Colors.green,
+//      fontSize: 14,
+//      borderWidth: 1,
+//      borderRadius: 10,
+//      cardHeight: 220,
+//      cardHolderNameHint: "card holder name hint",
+//      cardNumberHint: "card number hint",
+//      expiryDateHint: "expiry date hint",
+//      cvvHint: "cvv hint",
+//      showLabels: true,
+//      cardHolderNameLabel: "card holder name label",
+//      cardNumberLabel: "card number label",
+//      expiryDateLabel: "expiry date label",
+//      cvvLabel: "cvv label",
         );
 
     return mfPaymentCardView;

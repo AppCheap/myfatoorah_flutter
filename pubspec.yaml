@@ -1,5 +1,5 @@
 name: myfatoorah_flutter
-version: 2.1.13  # Don't forget to update this number inside the "getPluginVersion" method in "SourceInfo.dart" file and in README file and CHANGELOG file
+version: 2.1.14  # Don't forget to update this number inside the "getPluginVersion" method in "SourceInfo.dart" file and in README file and CHANGELOG file
 description: This plugin simplify the MyFatoorah payment platforms integration with your app, that works smoothly
   and provide you a simple way to embed our payment functions within your app.
 documentation: https://myfatoorah.readme.io/docs/flutter
@@ -15,12 +15,12 @@ dependencies:
 
   http: ^0.13.1
 
-  back_button_interceptor: ^5.0.2
+  back_button_interceptor: ^6.0.0
 
   device_info: ^2.0.0
 
 #  flutter_webview_plugin: ^0.4.0 #Support Apple pay
-  webview_flutter: ^3.0.4
+  webview_flutter: ^4.0.6
 
 dev_dependencies:
   flutter_test:
